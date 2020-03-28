@@ -9,9 +9,7 @@
 
 <!-- article content -->
 <row>
-  <columns class="article-content {{this.contentBoxClass}} {{this.type}}-border pb-0">
-    <div class="p-2">
-      {{> (lookup . 'contentPartial') }}
-    </div>
+  <columns class="article-content {{this.contentBoxClass}} {{this.type}}-border">
+    {{> (lookup . 'contentPartial') }}
   </columns>
 </row>

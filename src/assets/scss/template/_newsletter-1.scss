@@ -89,6 +89,8 @@
 
 // article content
 .article-content {
+  padding-right: 8px!important;
+  padding-left: 8px!important;
   &.border-width-1 {
     border-left: 1px solid $plant;
     border-right: 1px solid $plant;
