@@ -350,6 +350,9 @@ hr {
   color: $body-em;
   font-weight: 600;
 }
+.shadow-bg {
+  background-color: $shadow;
+}
 .priority {
   background-color: $priority;
   border-color: $priority !important;

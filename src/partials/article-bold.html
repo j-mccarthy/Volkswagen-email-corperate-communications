@@ -4,7 +4,7 @@
 
 
       <tr>
-        <th width="{{math-add settings.shadowSize 200}}" height="26" style="width:200px;height:26px;" valign="bottom">
+        <th width="200" height="26" style="width:200px;height:26px;" valign="bottom">
           <!-- line left - NOTE: 201.5 is outlook fix -->
           <img
             width="201.5"
@@ -18,9 +18,9 @@
         <!-- line center: th outlook -->
         <!--[if mso]>
         <th
-          width="160"
+          width="{{math-minus 160 settings.shadowSize}}"
           height="26"
-          style="width:160px;height:26px;"
+          style="width:{{math-minus 160 settings.shadowSize}}px;height:26px;"
           valign="bottom"
           class="article-tab-line {{this.type}}-text"
         >
@@ -40,8 +40,8 @@
         <!--[if mso]>
         <img
             height="26"
-            width="160"
-            style="height:26px;width:160px;"
+            width="{{math-minus 160 settings.shadowSize}}"
+            style="height:26px;width:{{math-minus 160 settings.shadowSize}}px;"
             class="float-left"
             src="https://res.cloudinary.com/whynotearth/image/upload/e_colorize,co_rgb:{{boxColorHex}}/Volkswagen/newsletter1/line-160px-2px-96dpi_rdzowd.png"
             alt=""
@@ -72,6 +72,16 @@
             src="https://res.cloudinary.com/whynotearth/image/upload/e_colorize,co_rgb:{{boxColorHex}}/Volkswagen/newsletter1/line-hv-32-26-96dpi_lewyes.png"
             alt=""
           />
+        </th>
+        <th valign="bottom" width="{{settings.shadowSize}}" height="26" style="width: {{settings.shadowSize}}px;" class="article-top-right">
+          <table>
+            <tr>
+              <td height="16" style="width:{{settings.shadowSize}}px; height:16px;"></td>
+            </tr>
+            <tr>
+              <td height="10" style="width:{{settings.shadowSize}}px; height:10px;" class="shadow-bg"></td>
+            </tr>
+          </table>
         </th>
       </tr>
     </table>
