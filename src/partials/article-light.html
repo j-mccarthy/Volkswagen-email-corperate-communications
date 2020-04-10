@@ -1,13 +1,22 @@
 <row>
   <columns class="pb-0">
-
-    <table class="layout-fixed" cellspacing="0" cellpadding="0" border="0" width="100%" style="width:100%;">
-
+    <table
+      class="layout-fixed"
+      cellspacing="0"
+      cellpadding="0"
+      border="0"
+      width="100%"
+    >
       <tr>
-        <th width="92" height="26" style="width:92px;height:26px;" valign="bottom">
+        <th
+          width="92"
+          height="26"
+          style="width: 92px; height: 26px;"
+          valign="bottom"
+        >
           <!-- line left -->
           <img
-            style="width:92px; height:26px;"
+            style="width: 92px; height: 26px;"
             width="92"
             height="26"
             src="https://res.cloudinary.com/whynotearth/image/upload/e_colorize,co_rgb:{{boxColorHex}}/l_{{boxLabelTextPath}},co_rgb:{{boxColorHex}},g_west,x_50,y_-2/v1585236222/Volkswagen/newsletter1/article-top-left-92-1_bzzo1k.png"
@@ -26,17 +35,17 @@
           class="article-tab-line {{this.type}}-text"
         >
         <![endif]-->
-      
+
         <!--[if !mso]>-->
         <th
           height="26"
           style="height:26px; background:url(https://res.cloudinary.com/whynotearth/image/upload/e_colorize,co_rgb:{{boxColorHex}}/Volkswagen/newsletter1/line-70-1_ffoxgl.png) repeat-x;"
           valign="bottom"
           class="article-tab-line {{this.type}}-text"
-          >
-        <!--<![endif]-->
+        >
+          <!--<![endif]-->
           <!--[if mso]>
-          <img
+            <img
               height="26"
               width="{{math-minus 70 settings.shadowSize}}"
               style="height:26px;width:{{math-minus 70 settings.shadowSize}}px;"
@@ -48,12 +57,17 @@
         </th>
 
         <!-- corner icon -->
-        <th valign="bottom" width="32" height="26" style="width:32px; height:26px;">
+        <th
+          valign="bottom"
+          width="32"
+          height="26"
+          style="width: 32px; height: 26px;"
+        >
           <!-- corner icon -->
           <img
             height="16"
             width="32"
-            style="width: 32px; height:16px;"
+            style="width: 32px; height: 16px;"
             class="article-top-icon float-left"
             src="{{boxIconSrc}}"
             alt=""
@@ -61,22 +75,39 @@
         </th>
 
         <!-- line right -->
-        <th valign="bottom" width="14" height="26" style="width: 14px;" class="article-top-right">
+        <th
+          valign="bottom"
+          width="14"
+          height="26"
+          style="width: 14px;"
+          class="article-top-right"
+        >
           <img
             class="float-right"
             width="14"
             height="26"
-            style="width: 14px; height:26px;"
+            style="width: 14px; height: 26px;"
             src="https://res.cloudinary.com/whynotearth/image/upload/e_colorize,co_rgb:{{boxColorHex}}/Volkswagen/newsletter1/line-hv-14-1px-96dpi_azfdfc.png"
             alt=""
           />
         </th>
 
         <!-- shadow -->
-        <th valign="bottom" width="{{settings.shadowSize}}" height="26" style="width: {{settings.shadowSize}}px;" class="article-top-right">
+        <th
+          valign="bottom"
+          width="{{settings.shadowSize}}"
+          height="26"
+          style="width: {{settings.shadowSize}}px;"
+          class="article-top-right"
+        >
           <table cellspacing="0" cellpadding="0" border="0">
             <tr>
-              <td width="{{settings.shadowSize}}" height="{{math-minus 10 settings.shadowSize}}" style="width:{{settings.shadowSize}}px; height:{{math-minus 10 settings.shadowSize}}px;" class="shadow-bg"></td>
+              <td
+                width="{{settings.shadowSize}}"
+                height="{{math-minus 10 settings.shadowSize}}"
+                style="width:{{settings.shadowSize}}px; height:{{math-minus 10 settings.shadowSize}}px;"
+                class="shadow-bg"
+              ></td>
             </tr>
           </table>
         </th>
@@ -85,34 +116,59 @@
   </columns>
 </row>
 
-
 <!-- article content -->
-<table class="wrapper article-content {{this.type}}-border" width="100%" style="width:100%;" cellspacing="0" cellpadding="0" border="0">
+<table
+  class="layout-fixed article-content"
+  width="100%"
+  cellspacing="0"
+  cellpadding="0"
+  border="0"
+>
   <tr>
-    <th class="wrapper-inner shadow-bg" width="100%" style="width:100%;padding-right:{{settings.shadowSize}}px;">
-      <table class="callout" cellspacing="0" cellpadding="0" border="0">
+    <th class="shadow-bg" width="100%">
+      <table
+        class="layout-fixed"
+        cellspacing="0"
+        cellpadding="0"
+        border="0"
+        width="100%"
+      >
         <tr>
           <th
-            class="callout-inner"
             class="article-callout {{this.contentBoxClass}}"
-            width="100%"
-            style="width:100%;border-left:1px solid #{{this.boxColorHex}}; border-right:1px solid #{{this.boxColorHex}}; border-bottom:1px solid #{{this.boxColorHex}}; border-top: none;"
+            style="background:#ffffff;border-left:1px solid #{{this.boxColorHex}}; border-right:1px solid #{{this.boxColorHex}}; border-bottom:1px solid #{{this.boxColorHex}}; border-top: none;"
           >
-            {{> (lookup . 'contentPartial') }}
+            heyyyyyyyyyyyy
           </th>
+          <th width="2" style="width:2px;" class="shadow-bg"></th>
         </tr>
       </table>
-
     </th>
   </tr>
 </table>
 
 <!-- bottom shadow -->
-<table class="wrapper" width="100%" style="width:100%;" cellspacing="0" cellpadding="0" border="0">
+<table
+  class="wrapper"
+  width="208"
+  style="width: 208px;"
+  cellspacing="0"
+  cellpadding="0"
+  border="0"
+>
   <tr>
-    <td height="{{settings.shadowSize}}" width="{{settings.shadowSize}}" style="height:{{settings.shadowSize}}px;width:{{settings.shadowSize}}px;"></td>
-    <td height="{{settings.shadowSize}}"  class="wrapper-inner shadow-bg" style="height:{{settings.shadowSize}}px;"></td>
+    <td
+      height="{{settings.shadowSize}}"
+      width="{{settings.shadowSize}}"
+      style="height:{{settings.shadowSize}}px;width:{{settings.shadowSize}}px;"
+    ></td>
+    <td
+      height="{{settings.shadowSize}}"
+      class="wrapper-inner shadow-bg"
+      style="height:{{settings.shadowSize}}px;"
+    ></td>
   </tr>
 </table>
+
 
 <spacer class="hide-for-large2" size="30"></spacer>
