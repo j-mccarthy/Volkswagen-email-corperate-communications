@@ -125,25 +125,23 @@
   border="0"
 >
   <tr>
-    <th class="shadow-bg" width="100%">
+    <th width="100%">
       <table
         class="layout-fixed"
         cellspacing="0"
         cellpadding="0"
-        border="0"
         width="100%"
+        valign="bottom"
       >
         <tr>
           <th
-            class="article-callout {{this.contentBoxClass}}"
-            style="background:#ffffff;border-left:1px solid #{{this.boxColorHex}}; border-right:1px solid #{{this.boxColorHex}}; border-bottom:1px solid #{{this.boxColorHex}}; border-top: none;"
+            class="article-callout {{this.contentBoxClass}} background"
           >
             <table class="callout" cellspacing="0" cellpadding="0" border="0">
               <tr>
                 <th
-                  class="callout-inner"
                   width="100%"
-                  style="width: 100%; border: none;"
+                  style="Margin:0;border:none;margin:0;padding:10px;width:100%;"
                 >
                   {{> (lookup . 'contentPartial') }}
                 </th>
